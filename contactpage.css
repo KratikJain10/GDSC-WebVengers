@@ -147,10 +147,20 @@ html{
     margin-left: 5px;
     margin-top: -3px;
 }
+.logoimg1:hover{
+    width:58px;
+    height:58px;
+    margin-right:26px;
+}
 .logoimg2{
     width:44px;
     height:44px;
     margin-right: 20px;
+}
+.logoimg2:hover{
+    width:50px;
+    height:50px;
+    margin-right:23px;
 }
 .bottom1-side{
     margin-top: 40px;
@@ -159,8 +169,18 @@ html{
     width:44px;
     height:44px;
 }
+.logoimg3:hover{
+    width:50px;
+    height:50px;
+}
 .bottom1-text{
     color:white;
     margin-left: 100px;
     font-size: 90%;
+}
+.bottom2{
+    height:750px;
+    background-color: black;
+    width:1520px;
+    margin-left: -10px;
 }

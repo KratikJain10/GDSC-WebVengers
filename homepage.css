@@ -1,0 +1,20 @@
+.firstview{
+    background-image: url(images/stylish_piccopy.jpg);
+    background-repeat: no-repeat;
+    height: 750px;
+    background-position: 900px 100px;
+    margin-top: -16px;
+}
+.title1{
+    color:purple;
+    font-size: 400%;
+    padding-top: 300px;
+    padding-left:300px;
+}
+.sub1{
+    padding-left: 350px;
+    font-size: large;
+}
+.bottom1{
+    height:750px;
+}
