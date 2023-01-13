@@ -10,6 +10,15 @@ html{
     margin-top:-10px;
     margin-bottom: 9px;
 }
+.block1{
+    height:480px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 100px;
+}
+.line{
+    border-left-color: 2px solid black;
+}
 .div1-1{
     display:flex;
     margin-top: 250px;
@@ -24,6 +33,7 @@ html{
     font-size: 300%;
 }
 .nametext{
+    margin-left: 100px;
     font-size: 250%;
 }
 .text1{
@@ -44,7 +54,7 @@ html{
     background-color: red;
     border-radius: 50% 50% 50% 0;
     position: absolute;
-    top: 268px;
+    top: 310px;
     left: 98px;
     transform: rotate(-45deg);
     margin:-20px 0 0 -20px;
@@ -67,7 +77,7 @@ html{
     width:28px;
     height:28px;
     position: absolute;
-    top:300px;
+    top:340px;
     left:106px;
     margin: 11px 0 0 -12px;
     transform: rotateX(55deg);
@@ -90,14 +100,50 @@ html{
     }
 }
 .scrolldownimg{
-    width:25px;
+    width:28px;
     height:50px;
 }
 .scrolldownimg:hover{
-    width:32px;
+    width:35px;
     height:60px;
 }
 .scrolldownimgdiv{
     margin-left: 740px;
     margin-top: 100px;
+}
+.bottom1{
+    margin-top: 200px;
+    display: flex;
+}
+.catimgdiv{
+    margin-left: 200px;
+    margin-right: 270px;
+}
+.gingercat{
+    width:250px;
+    height:250px;
+}
+.contactusdiv{
+    margin-left: 100px;
+    font-size: 300%;
+    font-family: caveat;
+}
+.icons{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.logoimg1{
+    width:52px;
+    height:52px;
+    margin-right: 20px;
+    margin-top:-2px;
+}
+.logoimg2{
+    width:44px;
+    height:44px;
+    margin-right: 20px;
+}
+.bottom1-side{
+    margin-top: 40px;
 }
