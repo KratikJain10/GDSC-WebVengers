@@ -1506,10 +1506,10 @@ window.particlesJS = function(tag_id, params){
   canvas_el.className = pJS_canvas_class;
 
   /* set size canvas */
-  canvas_el.style.width = "250%";
+  canvas_el.style.width = "150%";
   canvas_el.style.height = "100%";
   canvas_el.style.marginTop = "-370px";
-  canvas_el.style.marginLeft = "-500px";
+  canvas_el.style.marginLeft = "-270px";
  
 
   /* append canvas */
