@@ -12,6 +12,26 @@
   padding: 0
 }
 
+
+.single-instagram-item img{
+  height: 290px;
+  width: 226px;
+}
+
+
+.about-us-content mb-80 p{
+  color: rgb(0, 0, 0);
+}
+
+.home-logo {
+  color: #e28a05;
+}
+
+#nav a{
+  color: #f1b084;
+}
+
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -43,7 +63,7 @@ li {
 
 p {
   line-height: 1.9;
-  color: #636363;
+  color: #000000;
   font-size: 16px;
   font-weight: 400
 }
@@ -153,7 +173,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   border-color: #ebebeb
 }
 
-.mfp-arrow-left::after {
+.-left::after {
   border-right-color: transparent
 }
 
@@ -829,6 +849,10 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 }
 
 .single-welcome-slide .welcome-text h2 {
+  
+}
+
+.single-welcome-slide .welcome-text h4 {
   font-weight: 700;
   font-size: 82px;
   display: block;
@@ -843,6 +867,12 @@ textarea:invalid, input:invalid, textarea:required, input:required {
     font-size: 42px
   }
 }
+@media only screen and (max-width:767px) {
+  .single-welcome-slide .welcome-text h4 {
+    font-size: 42px
+  }
+}
+
 
 .single-welcome-slide .welcome-text p {
   color: #fff;

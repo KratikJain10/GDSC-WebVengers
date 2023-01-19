@@ -76,9 +76,11 @@
   .classynav ul li a {
     padding: 0 15px;
     display: block;
+    color: chocolate;
     height: 40px;
     font-size: 14px;
-    line-height: 39px; }
+    line-height: 39px;
+   }
   .classynav ul li .megamenu li a {
     padding: 0 12px; }
   .classynav ul li div.single-mega * {

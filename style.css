@@ -53,10 +53,30 @@ Last Update: Feb 22, 2019
 .post-thumbnail-k img{
 
   
+
+
+  
 }
 
 
+.single-instagram-item img{
+  height: 290px;
+  width: 226px;
+}
 
+
+#nav a{
+  color: #f5c47c;
+}
+.welcome-text h4{
+  font-weight: 700;
+  font-size: 38px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
 
 
 * {
@@ -308,7 +328,7 @@ img.mfp-img {
 
 button.mfp-close,
 button.mfp-arrow {
-  background: #fc6060;
+  background: #f7f7f7;
 }
 
 .mfp-bottom-bar {
@@ -716,7 +736,7 @@ input:required {
 /* :: 7.0 Header CSS */
 
 .home-logo {
-  color: #eaeaea;
+  color: #e28a05;
 }
 
 .header-area {
