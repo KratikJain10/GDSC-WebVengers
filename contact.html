@@ -456,8 +456,8 @@
                   
                 </div>
               </section> -->
-      <form action="#">
-        <h3 class="contact-heading">Request Us</h3>
+              <h3 class="contact-heading">Request Us</h3>
+      <form action="mailto:nancy1292002@gmail.com" method="post">
         <div class="form-floating my-3">
           <input type="text" style="
                   background-color: linear-gradient(
@@ -466,23 +466,23 @@
                     pink,
                     blue
                   );
-                " id="first_name" class="form-control" placeholder="First name" aria-label="First name" />
+                " id="first_name" name="Firstname" class="form-control" />
           <label for="first_name">First name</label>
         </div>
         <div class="form-floating my-3">
-          <input type="email" class="form-control" id="lastName" placeholder="Last name" aria-label="Last name" />
+          <input type="text" class="form-control" id="lastName" name="lastname"/>
           <label for="lastName">Last name</label>
         </div>
         <div class="form-floating my-3">
-          <input type="email" class="form-control" id="floatingInput" placeholder="Email address" />
+          <input type="email" class="form-control" id="floatingInput"name="email id"/>
           <label for="floatingInput">Email address</label>
         </div>
-        <div class="form-floating my-3">
-          <textarea class="form-control" placeholder="Comments" id="floatingTextarea2" rows="3"></textarea>
+        <div class="form-floating my-3"> 
+          <textarea class="form-control" name="product details" id="floatingTextarea2" rows="3"></textarea>
           <label for="floatingTextarea2">Product description...</label>
         </div>
         <br />
-        <button type="button" class="btn">Submit</button>
+        <input type="submit" class="btn">
       </form>
     </div>
   </div>
